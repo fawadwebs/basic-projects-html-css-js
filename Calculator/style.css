@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+html,
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  background: rgb(4, 1, 24);
+  background: linear-gradient(90deg, rgb(14, 19, 24) 0%, rgb(20, 0, 44) 100%);
+}
+h1 {
+  color: white;
+}
+.container {
+  background-color: rgba(0, 117, 95, 0.413);
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 2px 4px 5px black;
+}
+.button {
+  font-size: 24px;
+  height: 50px;
+  width: 50px;
+  border-radius: 9px;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  margin-left: 12px;
+  text-align: center;
+  background-color: 0;
+}
+.row {
+  margin: 15px;
+}
+.row input {
+  width: 280px;
+  height: 60px;
+  padding: 15px 10px;
+  text-align: right;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 35px;
+  background-color: rgba(216, 255, 222, 0.276);
+  /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
+}
+.op {
+  background-color: rgb(1, 1, 67);
+  color: white;
+  text-align: center;
+}
+.equal {
+  background-color: orangered;
+  color: white;
+}
+.button:hover {
+  box-shadow: 2px 2px 3px rgba(15, 231, 239, 0.591);
+}
+
+.input::-webkit-scrollbar-button {
+  display: none;
+}
+.text-center {
+  text-align: center;
+}
+.bg-red {
+  background: red;
+}
+.max-auto {
+  margin: auto;
+}
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
